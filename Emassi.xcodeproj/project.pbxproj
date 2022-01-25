@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52529C8327A00F67001A5BCA /* EmassiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52529C8227A00F67001A5BCA /* EmassiApp.swift */; };
+		52529C8527A00F67001A5BCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52529C8427A00F67001A5BCA /* ContentView.swift */; };
+		52529C8727A00F6B001A5BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52529C8627A00F6B001A5BCA /* Assets.xcassets */; };
+		52529C8A27A00F6B001A5BCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52529C8927A00F6B001A5BCA /* Preview Assets.xcassets */; };
+		52529C9427A00F6C001A5BCA /* EmassiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52529C9327A00F6C001A5BCA /* EmassiTests.swift */; };
+		52529C9E27A00F6C001A5BCA /* EmassiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52529C9D27A00F6C001A5BCA /* EmassiUITests.swift */; };
+		52529CA027A00F6C001A5BCA /* EmassiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52529C9F27A00F6C001A5BCA /* EmassiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52529C9027A00F6C001A5BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52529C7727A00F66001A5BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52529C7E27A00F67001A5BCA;
+			remoteInfo = Emassi;
+		};
+		52529C9A27A00F6C001A5BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52529C7727A00F66001A5BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52529C7E27A00F67001A5BCA;
+			remoteInfo = Emassi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52529C7F27A00F67001A5BCA /* Emassi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emassi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52529C8227A00F67001A5BCA /* EmassiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmassiApp.swift; sourceTree = "<group>"; };
+		52529C8427A00F67001A5BCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52529C8627A00F6B001A5BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52529C8927A00F6B001A5BCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52529C8F27A00F6C001A5BCA /* EmassiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmassiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52529C9327A00F6C001A5BCA /* EmassiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmassiTests.swift; sourceTree = "<group>"; };
+		52529C9927A00F6C001A5BCA /* EmassiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmassiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52529C9D27A00F6C001A5BCA /* EmassiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmassiUITests.swift; sourceTree = "<group>"; };
+		52529C9F27A00F6C001A5BCA /* EmassiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmassiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52529C7C27A00F67001A5BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52529C8C27A00F6B001A5BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52529C9627A00F6C001A5BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52529C7627A00F66001A5BCA = {
+			isa = PBXGroup;
+			children = (
+				52529C8127A00F67001A5BCA /* Emassi */,
+				52529C9227A00F6C001A5BCA /* EmassiTests */,
+				52529C9C27A00F6C001A5BCA /* EmassiUITests */,
+				52529C8027A00F67001A5BCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52529C8027A00F67001A5BCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52529C7F27A00F67001A5BCA /* Emassi.app */,
+				52529C8F27A00F6C001A5BCA /* EmassiTests.xctest */,
+				52529C9927A00F6C001A5BCA /* EmassiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52529C8127A00F67001A5BCA /* Emassi */ = {
+			isa = PBXGroup;
+			children = (
+				52529C8227A00F67001A5BCA /* EmassiApp.swift */,
+				52529C8427A00F67001A5BCA /* ContentView.swift */,
+				52529C8627A00F6B001A5BCA /* Assets.xcassets */,
+				52529C8827A00F6B001A5BCA /* Preview Content */,
+			);
+			path = Emassi;
+			sourceTree = "<group>";
+		};
+		52529C8827A00F6B001A5BCA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52529C8927A00F6B001A5BCA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52529C9227A00F6C001A5BCA /* EmassiTests */ = {
+			isa = PBXGroup;
+			children = (
+				52529C9327A00F6C001A5BCA /* EmassiTests.swift */,
+			);
+			path = EmassiTests;
+			sourceTree = "<group>";
+		};
+		52529C9C27A00F6C001A5BCA /* EmassiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52529C9D27A00F6C001A5BCA /* EmassiUITests.swift */,
+				52529C9F27A00F6C001A5BCA /* EmassiUITestsLaunchTests.swift */,
+			);
+			path = EmassiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52529C7E27A00F67001A5BCA /* Emassi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52529CA327A00F6C001A5BCA /* Build configuration list for PBXNativeTarget "Emassi" */;
+			buildPhases = (
+				52529C7B27A00F67001A5BCA /* Sources */,
+				52529C7C27A00F67001A5BCA /* Frameworks */,
+				52529C7D27A00F67001A5BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emassi;
+			productName = Emassi;
+			productReference = 52529C7F27A00F67001A5BCA /* Emassi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52529C8E27A00F6B001A5BCA /* EmassiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52529CA627A00F6C001A5BCA /* Build configuration list for PBXNativeTarget "EmassiTests" */;
+			buildPhases = (
+				52529C8B27A00F6B001A5BCA /* Sources */,
+				52529C8C27A00F6B001A5BCA /* Frameworks */,
+				52529C8D27A00F6B001A5BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52529C9127A00F6C001A5BCA /* PBXTargetDependency */,
+			);
+			name = EmassiTests;
+			productName = EmassiTests;
+			productReference = 52529C8F27A00F6C001A5BCA /* EmassiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52529C9827A00F6C001A5BCA /* EmassiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52529CA927A00F6C001A5BCA /* Build configuration list for PBXNativeTarget "EmassiUITests" */;
+			buildPhases = (
+				52529C9527A00F6C001A5BCA /* Sources */,
+				52529C9627A00F6C001A5BCA /* Frameworks */,
+				52529C9727A00F6C001A5BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52529C9B27A00F6C001A5BCA /* PBXTargetDependency */,
+			);
+			name = EmassiUITests;
+			productName = EmassiUITests;
+			productReference = 52529C9927A00F6C001A5BCA /* EmassiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52529C7727A00F66001A5BCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					52529C7E27A00F67001A5BCA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					52529C8E27A00F6B001A5BCA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 52529C7E27A00F67001A5BCA;
+					};
+					52529C9827A00F6C001A5BCA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 52529C7E27A00F67001A5BCA;
+					};
+				};
+			};
+			buildConfigurationList = 52529C7A27A00F66001A5BCA /* Build configuration list for PBXProject "Emassi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52529C7627A00F66001A5BCA;
+			productRefGroup = 52529C8027A00F67001A5BCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52529C7E27A00F67001A5BCA /* Emassi */,
+				52529C8E27A00F6B001A5BCA /* EmassiTests */,
+				52529C9827A00F6C001A5BCA /* EmassiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52529C7D27A00F67001A5BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52529C8A27A00F6B001A5BCA /* Preview Assets.xcassets in Resources */,
+				52529C8727A00F6B001A5BCA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52529C8D27A00F6B001A5BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52529C9727A00F6C001A5BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52529C7B27A00F67001A5BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52529C8527A00F67001A5BCA /* ContentView.swift in Sources */,
+				52529C8327A00F67001A5BCA /* EmassiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52529C8B27A00F6B001A5BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52529C9427A00F6C001A5BCA /* EmassiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52529C9527A00F6C001A5BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52529CA027A00F6C001A5BCA /* EmassiUITestsLaunchTests.swift in Sources */,
+				52529C9E27A00F6C001A5BCA /* EmassiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52529C9127A00F6C001A5BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52529C7E27A00F67001A5BCA /* Emassi */;
+			targetProxy = 52529C9027A00F6C001A5BCA /* PBXContainerItemProxy */;
+		};
+		52529C9B27A00F6C001A5BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52529C7E27A00F67001A5BCA /* Emassi */;
+			targetProxy = 52529C9A27A00F6C001A5BCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52529CA127A00F6C001A5BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52529CA227A00F6C001A5BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52529CA427A00F6C001A5BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Emassi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verbovenko.Emassi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52529CA527A00F6C001A5BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Emassi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verbovenko.Emassi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52529CA727A00F6C001A5BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verbovenko.EmassiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emassi.app/Emassi";
+			};
+			name = Debug;
+		};
+		52529CA827A00F6C001A5BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verbovenko.EmassiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emassi.app/Emassi";
+			};
+			name = Release;
+		};
+		52529CAA27A00F6C001A5BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verbovenko.EmassiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Emassi;
+			};
+			name = Debug;
+		};
+		52529CAB27A00F6C001A5BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verbovenko.EmassiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Emassi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52529C7A27A00F66001A5BCA /* Build configuration list for PBXProject "Emassi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52529CA127A00F6C001A5BCA /* Debug */,
+				52529CA227A00F6C001A5BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52529CA327A00F6C001A5BCA /* Build configuration list for PBXNativeTarget "Emassi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52529CA427A00F6C001A5BCA /* Debug */,
+				52529CA527A00F6C001A5BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52529CA627A00F6C001A5BCA /* Build configuration list for PBXNativeTarget "EmassiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52529CA727A00F6C001A5BCA /* Debug */,
+				52529CA827A00F6C001A5BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52529CA927A00F6C001A5BCA /* Build configuration list for PBXNativeTarget "EmassiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52529CAA27A00F6C001A5BCA /* Debug */,
+				52529CAB27A00F6C001A5BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52529C7727A00F66001A5BCA /* Project object */;
+}
